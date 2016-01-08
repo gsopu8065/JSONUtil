@@ -1,0 +1,41 @@
+{
+  "name": "JSONUtil",
+  "description": "JSONUtil module is useful to perform operations on JSON.",
+  "version": "0.0.1",
+  "author": "Srujan Gopu",
+  "contributors": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "npm install -g pakmanager"
+  },
+  "dependencies": {
+    "debug": "~2.2.0"
+  },
+  "devDependencies": {
+    "istanbul": "0.4.0",
+    "marked": "0.3.5",
+    "mocha": "2.3.3",
+    "should": "7.1.1",
+    "chai": "^3.4.1",
+    "superagent": "^1.4.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "istanbul test _mocha -- -R spec",
+    "coverage": "istanbul cover _mocha -- -R spec"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+  ]
+}
