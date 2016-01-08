@@ -11,7 +11,7 @@ describe('JSONUtil Testing', function() {
 
     it('Testing json_getValues_of_key ', function() {
         var result = JSONUtil.json_getValues_of_key(testJson,"formatted_address");
-        assert.equal(result.length, 18);
+        assert.equal(result.length, 4);
     });
 
     it('Testing json_getAllKeys nestedKey false', function() {
@@ -21,12 +21,15 @@ describe('JSONUtil Testing', function() {
 
     it('Testing json_getAllKeys nestedKey true', function() {
         var result = JSONUtil.json_getKeys(testJson,true);
-        assert.equal(result.length, 18);
+        assert.equal(result.length, 8);
+        result.forEach(function(data){
+            console.log(data);
+        });
     });
 
     it('Testing json_array_length', function() {
         var result = JSONUtil.json_array_length(testJson.results);
-        assert.equal(result, 18);
+        assert.equal(result, 4);
     });
 
     it('Testing json_extract_path_text', function() {
@@ -35,7 +38,7 @@ describe('JSONUtil Testing', function() {
     });
 
     it('Testing json_find_keyvalue_pair', function() {
-        var result = JSONUtil.json_find_keyvalue_pair(testJson, {"lat": 42.6076245, "lng": -76.92065099999999});
+        var result = JSONUtil.json_find_keyvalue_pair(testJson, {"long_name": "1016", "short_name": "1016"});
         assert.equal(result, true);
     });
 
