@@ -1,7 +1,7 @@
 {
   "name": "jsonutilities",
   "description": "JSONUtil module is useful to perform operations on JSON.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Srujan Gopu",
   "contributors": [],
   "license": "MIT",
@@ -36,5 +36,11 @@
   "directories": {
     "test": "test"
   },
-  "keywords": ["json", "util", "utilities", "jsonutilities","function"]
+  "keywords": [
+    "json",
+    "util",
+    "utilities",
+    "jsonutilities",
+    "function"
+  ]
 }
