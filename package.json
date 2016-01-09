@@ -1,5 +1,5 @@
 {
-  "name": "jsonutil",
+  "name": "jsonutilities",
   "description": "JSONUtil module is useful to perform operations on JSON.",
   "version": "0.0.1",
   "author": "Srujan Gopu",
