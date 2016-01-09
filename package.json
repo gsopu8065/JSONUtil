@@ -36,5 +36,5 @@
   "directories": {
     "test": "test"
   },
-  "keywords": []
+  "keywords": ["json", "util", "utilities", "jsonutilities","function"]
 }
