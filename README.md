@@ -4,11 +4,11 @@ This utilities are useful to perform operations of JSON objects. The installatio
 
 #### Installation
 ```bash
-npm install -g JSONUtil
+npm install -g jsonutilities
 ```
 #### Basic Object Initialization 
 ```bash
-var JSONUtil = require("JSONUtil");
+var JSONUtil = require("jsonutilities");
 ```
 
 #### JSONUtil Functions
@@ -94,7 +94,7 @@ result = [
  "1016 N Plum St, Springfield, OH 45504, USA",
  "1016 N Plum Point Rd, Himrod, NY 14842, USA"]
 ```
-###### 2. json_getValues_of_key
+###### 2. json_getKeys
 This function is useful to get all values of key. This function will go through the complete json object and finds all values of given key.
 ```bash
 var result = JSONUtil.json_getKeys(testJson,true|false);
